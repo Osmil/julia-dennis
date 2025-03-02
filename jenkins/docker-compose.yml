@@ -1,0 +1,6 @@
+services:
+  jenkins:
+    image: "jenkins/jenkins:lts-jdk17"
+    ports:
+      - "50000:50000"
+      - "4300:8080"
